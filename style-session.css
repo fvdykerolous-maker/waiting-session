@@ -161,10 +161,12 @@ textarea {
 }
 @media (max-width: 768px) {
     .bottom-sections {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .card {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
     }
 }
